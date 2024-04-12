@@ -1,0 +1,22 @@
+$primary: #150080;
+$accent: #4c9be6;
+$bg:#fff;
+$bg-accent: #e7e8e9;
+$disabled: #9c9c9c;
+$foreground: #2d264b;
+
+.answer-timer-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid $disabled;
+    
+    .progress{
+        height: 5px;
+        transition-duration: 0.1s;
+        transition-timing-function: linear;
+        width: 0;
+        background: red;
+    }
+}
